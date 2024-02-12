@@ -1,0 +1,8 @@
+
+@startuml
+left to right direction
+Пользователь -left-> Лево
+Пользователь -right-> Право
+Пользователь -up-> Верх
+Пользователь -down-> Низ
+@enduml

@@ -1,0 +1,12 @@
+
+@startuml
+skinparam sequenceMessageAlign right
+Bob -> Alice : Request
+Alice -> Bob: Response
+@enduml
+
+@startuml
+skinparam responseMessageBelowArrow true
+Bob -> Alice : дaй пять евро
+Alice -> Bob: нет, не дам
+@enduml

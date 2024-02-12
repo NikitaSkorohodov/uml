@@ -1,0 +1,14 @@
+
+@startuml
+
+skinparam backgroundcolor AntiqueWhite/Gold
+skinparam class BackgroundColor Wheat | CornflowerBlue
+class Foo #red-lightgreen
+note left of Foo #lightblue\9932CC
+это моя заметка
+об этом классе
+end note
+package Пpимеp #GreenYellow/LightGoldenRodYellow {
+}
+class Заглушка
+@enduml

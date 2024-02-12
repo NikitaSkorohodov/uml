@@ -1,0 +1,6 @@
+
+@startuml
+Class01 "к одному" *--"от многих" Class02 : композиция
+Class03 o-- Class04: aгperaя
+Class05 --> "1" Class06
+@endum1
